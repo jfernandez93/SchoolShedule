@@ -1,0 +1,110 @@
+Andrew Partida - Cerritos to CPP Electromechanical Systems Engineering Technology Breakdown
+Prepared: March 27, 2026
+
+Notes
+- This compares your Cerritos transcript dated March 23, 2026 against the current Cerritos-to-CPP EMSET articulation agreement and the CPP EMSET B.S. curriculum.
+- Spring 2026 courses are treated as in progress, not completed: CIS 183, ENGR 110, MATH 190, SOC 210.
+
+1. Completed or In Progress at Cerritos
+
+| Category         | Course / Item         | Status                         | Notes |
+|------------------|-----------------------|--------------------------------|-------|
+| Golden Four      | ENGL 100              | Completed                      | Meets written communication. |
+| Golden Four      | COMM 100              | Completed                      | Meets oral communication. |
+| Golden Four      | PHIL 103              | Completed                      | Helpful for CSU critical thinking; CPP engineering majors are exempt from 1B for admission. |
+| Math             | MATH 170              | Completed                      | Calculus I complete. |
+| Math             | MATH 190              | In progress                    | Calculus II. Important gateway course. |
+| Major-related    | PHYS 100              | Completed                      | Does not replace PHYS 201/202 for EMSET articulation. |
+| Major-related    | ENGR 110              | In progress                    | Helpful, but not articulated as CPP EGR 1000/EGR 1000L on the current agreement. |
+| Programming      | CIS 180               | Completed                      | Helpful background, but no current articulation to CPP ETE 1151/1151L on ASSIST. |
+| Transfer standing| Transferable units    | 85 attempted / 72.5 earned     | Already above CSU transfer minimum. |
+
+2. Program View A: Cerritos to CPP EMSET Transfer Preparation
+
+| CPP Requirement             | Cerritos Equivalent                 | Your Status                     | Additional Course Needed? | Cerritos Prereqs / Coreqs |
+|----------------------------|-------------------------------------|---------------------------------|---------------------------|---------------------------|
+| CHM 1150 or CHM 1210/1210L | CHEM 111                            | Not completed                   | Yes                       | Usually requires CHEM 110 plus appropriate math placement. |
+| EGR 1000 + EGR 1000L       | No articulated Cerritos course      | Not completed                   | No Cerritos equivalent    | Would typically be taken at CPP. |
+| ETE 1151 + ETE 1151L       | No articulated Cerritos course      | Not completed                   | No Cerritos equivalent    | Would typically be taken at CPP. |
+| ETE 2011 + ETE 2011L       | ENGR 215 + ENGR 215L                | Not completed                   | Yes                       | ENGR 215 prereq: PHYS 202. Coreq: MATH 240 or MATH 250. ENGR 215L prereq/coreq: ENGR 215. |
+| ETM 2101                   | ENGR 235                            | Not completed                   | Yes                       | Prereqs: MATH 190 and PHYS 201. |
+| ETM 2111                   | ENGR 240                            | Not completed                   | Yes                       | Prereq: ENGR 235. |
+| ETM 2171                   | ENGR 210                            | Not completed                   | Yes                       | Prereqs: PHYS 201 and CHEM 111. |
+| MAT 1300 + MAT 1310        | MATH 170 + MATH 190                 | 170 done, 190 in progress       | Finish MATH 190           | MATH 190 prereq: MATH 170. |
+| MFE 1260 + MFE 1260L       | ENGR 112 or ENGT 131 or ENGT 153    | Not completed                   | Yes                       | Recommended: ENGR 112. Prereq: MATH 140. |
+| ETM 2201                   | ENGR 245                            | Not completed                   | Yes                       | Prereq: ENGR 235. |
+| PHY 1210/1210L             | PHYS 201                            | Not completed                   | Yes                       | Prereqs: PHYS 100 or PHYS 101, and MATH 170. |
+| PHY 1220/1220L             | PHYS 202                            | Not completed                   | Yes                       | Prereq: PHYS 201. Coreq: MATH 190 or prior completion of MATH 190. |
+
+What you still need at Cerritos for the articulated transfer prep
+
+| Need             | Why It Matters                                              | Immediate Prereqs |
+|------------------|-------------------------------------------------------------|-------------------|
+| MATH 190         | Needed directly and unlocks statics-related work.           | MATH 170 |
+| CHEM 111         | Needed for chemistry/materials path and for ENGR 210.       | CHEM 110 plus math placement |
+| PHYS 201         | Needed for physics articulation and unlocks ENGR 235/210.   | PHYS 100 or PHYS 101, and MATH 170 |
+| PHYS 202         | Needed for second physics articulation and unlocks ENGR 215.| PHYS 201; coreq or prior MATH 190 |
+| ENGR 112         | Fulfills CPP engineering graphics articulation.             | MATH 140 |
+| ENGR 235         | Articulates to applied statics and unlocks ENGR 240/245.    | MATH 190 and PHYS 201 |
+| ENGR 240         | Articulates to applied dynamics.                            | ENGR 235 |
+| ENGR 245         | Articulates to strength of materials.                       | ENGR 235 |
+| ENGR 210         | Articulates to materials science.                           | PHYS 201 and CHEM 111 |
+| MATH 250         | Recommended because it can satisfy the ENGR 215 coreq.      | MATH 190 |
+| ENGR 215 + 215L  | Articulates to electrical networks and lab.                 | PHYS 202; coreq MATH 240 or MATH 250; lab requires ENGR 215 or concurrent enrollment |
+
+3. Program View B: Full CPP EMSET B.S. After Transfer
+
+Even in the best transfer-prep case, these CPP courses would still remain:
+
+| CPP Course                | Status After Best-Case Cerritos Prep | Main CPP Prereqs |
+|--------------------------|---------------------------------------|------------------|
+| EGR 1000                 | Still needed at CPP                   | Entry major course |
+| EGR 1000L                | Still needed at CPP                   | Coreq with EGR 1000 |
+| ETE 1151                 | Still needed at CPP                   | EGR 1000/EGR 1000L and major standing |
+| ETE 1151L                | Still needed at CPP                   | Coreq with ETE 1151 |
+| MFE 2010                 | Still needed at CPP                   | No articulated Cerritos equivalent |
+| MFE 2010L                | Still needed at CPP                   | Coreq with MFE 2010 |
+| ETM 2201L                | Still needed at CPP                   | Paired with ETM 2201 |
+| ETE 3211                 | Still needed at CPP                   | ETE 2011/2011L and calculus |
+| ETE 3211L                | Still needed at CPP                   | Coreq with ETE 3211 |
+| ETM 3061                 | Still needed at CPP                   | ETM 2101 and calculus |
+| ETM 3101                 | Still needed at CPP                   | ETM 2101 and calculus |
+| ETM 3301                 | Still needed at CPP                   | ETE 3211 and calc II |
+| ETM 3301L                | Still needed at CPP                   | Coreq with ETM 3301 |
+| ETM 3151                 | Still needed at CPP                   | ETM 2111, ETM 2201/2201L, engineering graphics |
+| ETM 3151L                | Still needed at CPP                   | Coreq with ETM 3151 |
+| ETM 3141L                | Still needed at CPP                   | ETM 3061 and ETM 3101 |
+| ETM 3341                 | Still needed at CPP                   | ETM 3061 |
+| ETM 3121                 | Still needed at CPP                   | ETM 2111 and ETM 3101 |
+| ETM 3081                 | Still needed at CPP                   | ETM 3101 |
+| ETE 4751                 | Still needed at CPP                   | Robotics/control sequence after ETM 3301 and dynamics |
+| ETE 4751L                | Still needed at CPP                   | Coreq with ETE 4751 |
+| EGR 4810                 | Still needed at CPP                   | Lower-division GE Areas A and B complete |
+| EGR 4820                 | Still needed at CPP                   | Lower-division GE Areas A and B complete |
+| EGR 4830                 | Still needed at CPP                   | Lower-division GE Areas A and B complete |
+| IME 4020                 | Still needed at CPP                   | Lower-division GE and area distribution complete |
+| Major electives (9 units)| Still needed at CPP                   | Upper-division major standing; course-dependent |
+
+4. Recommended Semester Plan Starting Summer 2026
+
+Assumption: you pass MATH 190 in Spring 2026.
+
+| Term        | Recommended Courses       | Why This Term Works |
+|-------------|---------------------------|---------------------|
+| Summer 2026 | CHEM 111, ENGR 112        | Builds chemistry/materials path and clears engineering graphics early. |
+| Fall 2026   | PHYS 201, MATH 250        | PHYS 201 unlocks statics and materials; MATH 250 can satisfy the ENGR 215 coreq later. |
+| Spring 2027 | PHYS 202, ENGR 235, ENGR 210 | Key bridge semester into circuits, dynamics, and strength of materials. |
+| Summer 2027 | ENGR 240, ENGR 245        | Both open once ENGR 235 is finished. |
+| Fall 2027   | ENGR 215, ENGR 215L       | By this point you should have PHYS 202 and the math coreq handled. |
+
+5. Fast Summary
+- Your biggest missing EMSET transfer-prep gaps are physics, chemistry, statics/dynamics, materials, circuits, engineering graphics, and strength of materials.
+- The highest-leverage courses are MATH 190, PHYS 201, PHYS 202, ENGR 235, and CHEM 111.
+- Even after finishing the articulated Cerritos prep, you would still complete a substantial upper-division EMSET sequence at CPP.
+
+6. Sources Used
+- Cerritos Transcript dated 2026-03-23
+- Cerritos to CPP EMSET articulation agreement for 2025-2026
+- CPP EMSET curriculum sheet
+- Cerritos course pages for Engineering, Physics, Math, and Chemistry
+- CPP EMSET roadmap PDF for prerequisite chains
