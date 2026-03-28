@@ -94,6 +94,32 @@ const programMeta = {
       },
     ],
   },
+  csuf: {
+    title: "CSUF Electrical Engineering",
+    units: "120 total units",
+    earned: "72.5 earned units",
+    balance: "47.5 estimated units remaining",
+    summary:
+      "Best if you want a traditional electrical engineering degree at Fullerton. This is another math-heavy, theory-heavy path, and your biggest gaps are still chemistry, the full engineering physics sequence, and more advanced math.",
+    fitLabel: "Reach Match",
+    fitClass: "fit-medium",
+    fitCaption:
+      "You already meet the broad transfer-unit baseline, but CSUF EE still has a deep lower-division science and math stack that is not yet finished on your transcript.",
+    quickRead: [
+      {
+        title: "Transfer baseline",
+        text: "You are already above the <strong>60 transferable unit</strong> minimum for upper-division transfer planning.",
+      },
+      {
+        title: "Biggest missing prep",
+        text: "The largest missing pieces for CSUF EE are <strong>chemistry</strong>, the <strong>engineering physics sequence</strong>, and the rest of the <strong>advanced math chain</strong> beyond calculus II.",
+      },
+      {
+        title: "Most important unlocks",
+        text: "<strong>MATH 190</strong>, <strong>CHEM 111</strong>, <strong>PHYS 201</strong>, and your next advanced math course matter most if you want to keep CSUF EE open.",
+      },
+    ],
+  },
 };
 
 function setActiveProgram(program) {
