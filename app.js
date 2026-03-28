@@ -120,6 +120,32 @@ const programMeta = {
       },
     ],
   },
+  ads: {
+    title: "CSULB Applied Data Science",
+    units: "120 total units",
+    earned: "72.5 earned units",
+    balance: "47.5 estimated units remaining",
+    summary:
+      "Best if you want the strongest fit with your current programming background. Compared with the engineering programs, this path reduces the physics-and-chemistry burden and leans more on computing, discrete structures, data structures, and machine learning.",
+    fitLabel: "Strong Match",
+    fitClass: "fit-strong",
+    fitCaption:
+      "This appears to be one of your best academic fits because you already have programming coursework and enough transfer units, though you would still need the core data-science sequence after transfer.",
+    quickRead: [
+      {
+        title: "Transfer baseline",
+        text: "You already meet the broad <strong>60 transferable unit</strong> baseline and have the communication requirements completed.",
+      },
+      {
+        title: "Biggest missing prep",
+        text: "The biggest likely missing pieces are <strong>intro data science</strong>, <strong>discrete structures</strong>, and <strong>data structures</strong>, rather than physics or chemistry.",
+      },
+      {
+        title: "Most important unlocks",
+        text: "<strong>CIS 183</strong>, stronger computing coursework, and an efficient path into <strong>CECS 181</strong>, <strong>CECS 228</strong>, and <strong>CECS 274</strong> matter most here.",
+      },
+    ],
+  },
 };
 
 function setActiveProgram(program) {
