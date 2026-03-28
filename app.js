@@ -146,6 +146,32 @@ const programMeta = {
       },
     ],
   },
+  guide: {
+    title: "Best-Fit Discipline Guide",
+    units: "varies by school",
+    earned: "72.5 earned units",
+    balance: "balance varies by discipline",
+    summary:
+      "The best overall fits from this transcript are computing-heavy paths first, applied engineering technology second, and traditional electrical engineering last. The main reason is simple: the current transcript already supports programming and transfer readiness better than it supports the full engineering physics and chemistry chain.",
+    fitLabel: "Planning View",
+    fitClass: "fit-strong",
+    fitCaption:
+      "If the goal is to maximize match strength, speed to transfer, and AI-era resilience, Applied Data Science, Computer Science, and engineering technology paths are the strongest places to focus first.",
+    quickRead: [
+      {
+        title: "Best overall fit",
+        text: "<strong>Applied Data Science</strong> and <strong>Computer Science</strong> look strongest because the transcript already shows programming momentum and enough transferable units.",
+      },
+      {
+        title: "Best hands-on alternative",
+        text: "<strong>Electronics or Computer Engineering Technology</strong> is a strong option if the goal is more applied hardware, systems, and lab-centered work with less theory burden than pure EE.",
+      },
+      {
+        title: "AI impact takeaway",
+        text: "The best disciplines now are the ones where AI becomes a multiplier for human work, not the whole job. Data, systems, hardware integration, security, and domain expertise all matter more because of AI, not less.",
+      },
+    ],
+  },
 };
 
 function setActiveProgram(program) {

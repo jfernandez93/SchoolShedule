@@ -62,6 +62,9 @@
         <button class="program-tab" id="tab-ads" type="button" role="tab" aria-selected="false" aria-controls="panel-ads" data-program-target="ads" onclick="window.selectProgram && window.selectProgram('ads')">
           CSULB ADS
         </button>
+        <button class="program-tab" id="tab-guide" type="button" role="tab" aria-selected="false" aria-controls="panel-guide" data-program-target="guide" onclick="window.selectProgram && window.selectProgram('guide')">
+          Best Fits
+        </button>
         <button class="print-button" id="print-view" type="button">
           Print Selected Program
         </button>
@@ -142,6 +145,13 @@
               <td>72.5</td>
               <td>47.5</td>
               <td><span class="inline-fit fit-strong">Strong Match</span></td>
+            </tr>
+            <tr>
+              <td>Best-Fit Discipline Guide</td>
+              <td>Varies by school</td>
+              <td>72.5</td>
+              <td>Varies</td>
+              <td><span class="inline-fit fit-strong">Planning View</span></td>
             </tr>
           </tbody>
         </table>
@@ -909,6 +919,141 @@
         </section>
       </section>
 
+      <section class="program-panel" id="panel-guide" role="tabpanel" aria-labelledby="tab-guide" aria-hidden="true" data-program-panel="guide">
+        <section class="section" id="best-fits">
+          <div class="section-heading">
+            <p class="section-kicker">Recommendations</p>
+            <h2>Best disciplines to consider given this transcript <span class="inline-fit fit-strong">Planning View</span></h2>
+            <p class="assumption">
+              Ranked by overall fit with the current transcript, likelihood of momentum after transfer, and how well the field still benefits from human judgment in an AI-heavy job market.
+            </p>
+          </div>
+          <div class="callout-grid single-row">
+            <article class="callout">
+              <h3>Current strengths</h3>
+              <p>Programming coursework, strong transferable-unit count, completed communication courses, and calculus already started all point toward computing-heavy majors.</p>
+            </article>
+            <article class="callout">
+              <h3>Main constraint</h3>
+              <p>The full engineering physics and chemistry chain is still incomplete, which makes traditional EE paths less efficient right now.</p>
+            </article>
+            <article class="callout">
+              <h3>AI lens</h3>
+              <p>The best long-term choices are disciplines where AI becomes a tool you direct, not a replacement for the whole job.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <p class="section-kicker">Ranked List</p>
+            <h2>Discipline fit ranking</h2>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Discipline</th>
+                  <th>Match Strength</th>
+                  <th>Why It Fits This Transcript</th>
+                  <th>AI Impact Outlook</th>
+                  <th>Nearby Schools to Consider</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Applied Data Science</td>
+                  <td><span class="inline-fit fit-strong">Strong</span></td>
+                  <td>Best balance of your existing programming background, transferable units, and math progress without demanding the full engineering physics and chemistry ladder first.</td>
+                  <td>Strong outlook if paired with statistics, data engineering, experimentation, business/domain context, and communication. AI boosts productivity here, but companies still need people to define questions, validate outputs, and own data pipelines.</td>
+                  <td>CSULB Applied Data Science</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Computer Science / Software Engineering</td>
+                  <td><span class="inline-fit fit-strong">Strong</span></td>
+                  <td>Your CIS classes, C/C++, Java, and overall academic profile line up naturally with this path. It also avoids some of the slower hardware-heavy prerequisite chains.</td>
+                  <td>AI is changing entry-level coding, so the best version of this path is deeper than “just coding”: systems thinking, debugging, architecture, security, testing, product sense, and domain expertise matter more now.</td>
+                  <td>CSULB Computer Science, CSUF Computer Science, CPP Computer Science, CSUDH Computer Science</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Electronics / Computer Engineering Technology</td>
+                  <td><span class="inline-fit fit-strong">Strong</span></td>
+                  <td>This is a good fit if the goal is hands-on tech work with hardware, systems integration, lab work, and applied programming. It matches your current profile better than pure EE.</td>
+                  <td>Relatively resilient because AI can help with design and troubleshooting, but physical integration, testing, instrumentation, and deployment still need people on the ground.</td>
+                  <td>CSULB Electronics Engineering Technology, CSULB Computer Engineering Technology</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Computer Engineering</td>
+                  <td><span class="inline-fit fit-medium">Medium-Strong</span></td>
+                  <td>Good option if you want more hardware depth than computer science but still want strong overlap with programming. Better fit than pure EE, but still more mathematically demanding.</td>
+                  <td>Good long-term AI positioning because the field sits close to embedded systems, edge devices, system design, and hardware-software integration, all of which remain human-led.</td>
+                  <td>CSULB Computer Engineering, CSUF Computer Engineering</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Electromechanical / Mechatronics Style Engineering Technology</td>
+                  <td><span class="inline-fit fit-medium">Medium</span></td>
+                  <td>A solid fit if you want robotics, controls, manufacturing, and physical systems. It is appealing, but your missing lower-division engineering chain is still substantial.</td>
+                  <td>Strong AI-era relevance because automation, robotics, sensors, and intelligent physical systems are expanding. AI is more likely to amplify this field than replace it.</td>
+                  <td>Cal Poly Pomona EMSET, nearby robotics/manufacturing-focused engineering technology pathways</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Information Systems / Business Analytics</td>
+                  <td><span class="inline-fit fit-medium">Medium</span></td>
+                  <td>Good if you want a less physics-heavy route with a blend of data, business systems, and technology. Your communication courses and CIS work help here.</td>
+                  <td>Routine reporting work is increasingly automated, but process design, data governance, business translation, and systems ownership remain valuable.</td>
+                  <td>CSUF Business Administration with Information Systems or Business Analytics, nearby business-tech programs</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Electrical Engineering</td>
+                  <td><span class="inline-fit fit-medium">Reach</span></td>
+                  <td>Still possible, but it is the toughest fit among the options here because the lower-division math, chemistry, and calculus-based physics stack is the most demanding relative to the current transcript.</td>
+                  <td>Good long-term field overall, but harder to reach efficiently from your current position. AI supports simulation and design, yet power, hardware, controls, and regulated engineering work remain durable.</td>
+                  <td>CSULB Electrical Engineering, CSUF Electrical Engineering, CSU Fullerton/Long Beach advising first before committing</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <p class="section-kicker">Short Take</p>
+            <h2>My recommendation order</h2>
+          </div>
+          <div class="priority-list">
+            <article class="priority-card">
+              <span class="priority-number">1</span>
+              <div>
+                <h3>Applied Data Science</h3>
+                <p>Best current fit if the goal is to maximize momentum from your programming classes while minimizing the physics bottleneck.</p>
+              </div>
+            </article>
+            <article class="priority-card">
+              <span class="priority-number">2</span>
+              <div>
+                <h3>Computer Science or Software-Focused Computing</h3>
+                <p>Best broad career flexibility, but the safest version of this path is one that goes beyond basic coding into systems, AI use, security, and strong project work.</p>
+              </div>
+            </article>
+            <article class="priority-card">
+              <span class="priority-number">3</span>
+              <div>
+                <h3>Electronics or Computer Engineering Technology</h3>
+                <p>Best if you want applied hardware-plus-software work and a field that stays more tied to physical systems.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+      </section>
+
       <section class="section source-section">
         <div class="section-heading">
           <p class="section-kicker">Project Files</p>
@@ -929,6 +1074,14 @@
           <a href="https://www.fullerton.edu/ecs/ece/degrees/ee_undergraduate.php">CSUF Electrical Engineering program page</a>
           <a href="https://www.csulb.edu/college-of-engineering/bachelor-of-science-applied-data-science">CSULB Applied Data Science program page</a>
           <a href="https://www.csulb.edu/academic-senate/bachelor-of-science-applied-data-science">CSULB Applied Data Science degree policy</a>
+          <a href="https://www.csulb.edu/college-of-engineering/bachelor-of-science-computer-science">CSULB Computer Science program page</a>
+          <a href="https://www.csulb.edu/college-of-engineering/bachelor-of-science-computer-engineering">CSULB Computer Engineering program page</a>
+          <a href="https://www.csulb.edu/college-of-engineering/bachelor-of-science-computer-engineering-technology">CSULB Computer Engineering Technology program page</a>
+          <a href="https://www.fullerton.edu/engineering-computer-science/computer-science/">CSUF Computer Science program page</a>
+          <a href="https://business.fullerton.edu/business-administration/">CSUF Business Administration concentrations</a>
+          <a href="https://www.csudh.edu/csc/programs/computer-science-programs/bs-computer-science/">CSUDH Computer Science program page</a>
+          <a href="https://www.csudh.edu/csc/programs/computer-tech-programs/ba-computer-tech/">CSUDH Computer Technology program page</a>
+          <a href="https://www.cpp.edu/sci/computer-science/undergraduate-program/index.shtml">CPP Computer Science program page</a>
         </div>
       </section>
     </main>
