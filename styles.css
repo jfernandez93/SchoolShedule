@@ -134,6 +134,39 @@ body {
   border: 1px solid rgba(20, 83, 45, 0.25);
 }
 
+.unit-badge.secondary {
+  color: var(--ink);
+  background: rgba(16, 42, 67, 0.05);
+  border: 1px solid var(--line);
+}
+
+.mini-unit-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0 0 18px;
+}
+
+.mini-unit-card {
+  padding: 16px 18px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid var(--line);
+}
+
+.mini-unit-card span {
+  display: block;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.mini-unit-card strong {
+  font-size: 1.45rem;
+}
+
 .program-tab {
   appearance: none;
   border: 1px solid var(--line);
@@ -498,6 +531,10 @@ tbody tr:hover {
   }
 
   .program-summary-card {
+    grid-template-columns: 1fr;
+  }
+
+  .mini-unit-row {
     grid-template-columns: 1fr;
   }
 

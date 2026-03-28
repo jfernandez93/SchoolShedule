@@ -4,6 +4,8 @@ const printButton = document.getElementById("print-view");
 const summaryTitle = document.getElementById("program-summary-title");
 const summaryText = document.getElementById("program-summary-text");
 const unitBadge = document.getElementById("program-unit-badge");
+const earnedBadge = document.getElementById("program-earned-badge");
+const balanceBadge = document.getElementById("program-balance-badge");
 const fitBadge = document.getElementById("program-fit-badge");
 const fitCaption = document.getElementById("program-fit-caption");
 const quickReadTitle1 = document.getElementById("quick-read-title-1");
@@ -17,6 +19,8 @@ const programMeta = {
   cpp: {
     title: "CPP EMSET",
     units: "124 total units",
+    earned: "72.5 earned units",
+    balance: "51.5 estimated units remaining",
     summary:
       "Best if you want the strongest mechanical-electrical blend. Your main missing prep is physics, chemistry, statics, dynamics, materials, circuits, and graphics.",
     fitLabel: "Strong Match",
@@ -41,6 +45,8 @@ const programMeta = {
   csulb: {
     title: "CSULB Electrical Engineering",
     units: "120 total units",
+    earned: "72.5 earned units",
+    balance: "47.5 estimated units remaining",
     summary:
       "Best if you want a more math-intensive and theory-heavy electrical engineering path. Your biggest gaps are PHYS 201, PHYS 202, and likely several lower-division EE core courses after transfer.",
     fitLabel: "Reach Match",
@@ -65,6 +71,8 @@ const programMeta = {
   eet: {
     title: "CSULB Electronics Engineering Technology",
     units: "120 total units",
+    earned: "72.5 earned units",
+    balance: "47.5 estimated units remaining",
     summary:
       "Best if you want a hands-on electronics, circuits, programming, and instrumentation path. This looks friendlier to your current transcript than CSULB EE, especially if your physics sequence aligns cleanly.",
     fitLabel: "Strong Match",
@@ -104,10 +112,12 @@ function setActiveProgram(program) {
   });
 
   const meta = programMeta[program];
-  if (meta && summaryTitle && summaryText && unitBadge && fitBadge && fitCaption) {
+  if (meta && summaryTitle && summaryText && unitBadge && earnedBadge && balanceBadge && fitBadge && fitCaption) {
     summaryTitle.textContent = meta.title;
     summaryText.textContent = meta.summary;
     unitBadge.textContent = meta.units;
+    earnedBadge.textContent = meta.earned;
+    balanceBadge.textContent = meta.balance;
     fitBadge.textContent = meta.fitLabel;
     fitBadge.className = `fit-badge ${meta.fitClass}`;
     fitCaption.textContent = meta.fitCaption;
