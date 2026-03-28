@@ -1,5 +1,6 @@
 const tabs = document.querySelectorAll("[data-program-target]");
 const panels = document.querySelectorAll("[data-program-panel]");
+const printButton = document.getElementById("print-view");
 
 function setActiveProgram(program) {
   tabs.forEach((tab) => {
@@ -39,5 +40,11 @@ tabs.forEach((tab) => {
     }
   });
 });
+
+if (printButton) {
+  printButton.addEventListener("click", () => {
+    window.print();
+  });
+}
 
 setActiveProgram("cpp");

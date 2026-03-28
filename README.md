@@ -4,10 +4,11 @@ This is a static site version of two transfer-planning views for Andrew Partida:
 
 - Cerritos -> Cal Poly Pomona Electromechanical Systems Engineering Technology
 - Cerritos -> CSULB Electrical Engineering
+- Cerritos -> CSULB Electronics Engineering Technology
 
 ## Files
 
-- `index.html` - publishable single-page app with both program views
+- `index.html` - publishable single-page app with all three program views
 - `styles.css` - styling for the app
 - `Andrew_Partida_EMSET_Breakdown.docx` - Word export
 - `Andrew_Partida_EMSET_Breakdown.txt` - plain text export
