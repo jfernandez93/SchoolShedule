@@ -195,6 +195,8 @@ function setActiveProgram(program) {
   }
 }
 
+window.selectProgram = setActiveProgram;
+
 function getActiveProgram() {
   const activeTab = document.querySelector("[data-program-target].active");
   return activeTab ? activeTab.dataset.programTarget : "cpp";
