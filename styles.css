@@ -72,6 +72,58 @@ body {
   box-shadow: var(--shadow);
 }
 
+.program-switcher {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+  align-items: end;
+  margin-bottom: 24px;
+  padding: 22px 24px;
+  border-radius: 28px;
+  backdrop-filter: blur(14px);
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  box-shadow: var(--shadow);
+}
+
+.program-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.program-tab {
+  appearance: none;
+  border: 1px solid var(--line);
+  background: rgba(16, 42, 67, 0.05);
+  color: var(--ink);
+  padding: 12px 18px;
+  border-radius: 999px;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 160ms ease, background 160ms ease, color 160ms ease;
+}
+
+.program-tab:hover,
+.program-tab:focus-visible {
+  background: rgba(15, 118, 110, 0.08);
+  outline: none;
+}
+
+.program-tab.active {
+  background: var(--ink);
+  color: white;
+}
+
+.program-panel {
+  display: none;
+}
+
+.program-panel.active {
+  display: block;
+}
+
 .program-nav a {
   text-decoration: none;
   color: var(--ink);
@@ -343,6 +395,11 @@ tbody tr:hover {
   .callout-grid,
   .single-row {
     grid-template-columns: 1fr;
+  }
+
+  .program-switcher {
+    grid-template-columns: 1fr;
+    align-items: start;
   }
 
   .hero-copy,
