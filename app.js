@@ -159,7 +159,8 @@ function setActiveProgram(program) {
   panels.forEach((panel) => {
     const isActive = panel.dataset.programPanel === program;
     panel.classList.toggle("active", isActive);
-    panel.toggleAttribute("hidden", !isActive);
+    panel.hidden = !isActive;
+    panel.style.display = isActive ? "block" : "none";
     panel.setAttribute("aria-hidden", String(!isActive));
   });
 
