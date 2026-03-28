@@ -1,10 +1,13 @@
 # EMSET Transfer Planner
 
-This is a static site version of the Cerritos-to-CPP Electromechanical Systems Engineering Technology transfer breakdown for Andrew Partida.
+This is a static site version of two transfer-planning views for Andrew Partida:
+
+- Cerritos -> Cal Poly Pomona Electromechanical Systems Engineering Technology
+- Cerritos -> CSULB Electrical Engineering
 
 ## Files
 
-- `index.html` - publishable single-page app
+- `index.html` - publishable single-page app with both program views
 - `styles.css` - styling for the app
 - `Andrew_Partida_EMSET_Breakdown.docx` - Word export
 - `Andrew_Partida_EMSET_Breakdown.txt` - plain text export
