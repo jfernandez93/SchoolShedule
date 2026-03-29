@@ -172,6 +172,32 @@ const programMeta = {
       },
     ],
   },
+  india: {
+    title: "India Engineering Colleges Guide",
+    units: "varies by school",
+    earned: "72.5 earned units",
+    balance: "balance varies by school",
+    summary:
+      "For India, the right split is between prestige and practicality. The IITs are the strongest engineering names, but VIT and Manipal are usually easier for international students to navigate because their international admissions and support are much more explicit.",
+    fitLabel: "Planning View",
+    fitClass: "fit-strong",
+    fitCaption:
+      "If the goal is realistic options for an American student, VIT and Manipal are often the cleanest starting points; if the goal is maximum prestige, the IITs are the top names but much harder to access.",
+    quickRead: [
+      {
+        title: "Best prestige options",
+        text: "<strong>IIT Delhi</strong>, <strong>IIT Bombay</strong>, and <strong>IIT Madras</strong> are the top engineering names in India in recent global rankings.",
+      },
+      {
+        title: "Best practical options",
+        text: "<strong>VIT</strong> and <strong>MAHE Manipal</strong> are easier to plan around because they publish international admissions information clearly and are more straightforward for foreign students.",
+      },
+      {
+        title: "Best cost/value angle",
+        text: "India can be dramatically cheaper than U.S. private universities, but the right school depends on whether you want elite prestige, easier international access, or the clearest return on cost.",
+      },
+    ],
+  },
 };
 
 function setActiveProgram(program) {
